@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>EventCalendarGenerator</AssemblyName>
+    <RootNamespace>Aijkl.VRChat.EventCalendar</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Calendar.v3" Version="1.50.0.2237" />
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.50.0.2236" />
+    <PackageReference Include="SkiaSharp" Version="2.80.3-preview.40" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="2.80.3-preview.40" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataConverter\DataConverter.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CloudFlare">
+      <HintPath>..\..\VRChatPoster\CloudFlare\bin\Release\net5.0\CloudFlare.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\authToken.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\localSettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

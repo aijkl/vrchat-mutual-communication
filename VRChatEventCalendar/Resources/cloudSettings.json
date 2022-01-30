@@ -1,0 +1,18 @@
+{
+  "calendars": [
+    {
+      "calendarID": "1b1et1slg27jm1rgdltu3mn2j4@group.calendar.google.com",
+      "fileName": "eventcalendar",
+      "beginAddDays": "0",
+      "endAddDays": "3"
+     },
+    {
+      "calendarID": "calendarvrchat@gmail.com",
+      "fileName": "calendar",
+      "beginAddDays": "0",
+      "endAddDays": "364"
+    }
+  ],
+  "updateInterval": 300000,
+  "discordWebHookURL": "https://discord.com/api/webhooks/815930192807460864/"
+}

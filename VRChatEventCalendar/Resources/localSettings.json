@@ -1,0 +1,42 @@
+﻿//{
+//  "ffmpegPath": "ffmpeg",
+//  "codec": "libx264",
+//  "framerate": "1",
+//  "pixelFormat": "yuv420p",
+//  "crf": "1",
+//  "width": 128,
+//  "height": 128,
+//  "maxByteLength": 2000,
+//  "authTokenPath": "./Resources/authToken.json",
+//  "cloudSettingsId": "",
+//  "tempDirectory": "/tmp/calendar",
+//  "metaFilename": "calendarHashes.json",
+//  "saveDirectory": "/tmp/www",
+//  "cloudFlareParameters": {
+//    "emailAdress": "aijkl@outlook.jp",
+//    "authToken": "",
+//    "zoneId": "",
+//    "baseUrl": "https://private.orange-mikan.org"
+//  }
+//}
+{
+  "ffmpegpath": "ffmpeg",
+  "codec": "libx264",
+  "framerate": "1",
+  "pixelformat": "yuv420p",
+  "crf": "1",
+  "width": 128,
+  "height": 128,
+  "maxbytelength": 2000,
+  "authtokenpath": "./resources/authtoken.json",
+  "cloudsettingsid": "",
+  "tempdirectory": "./calendar",
+  "metafilename": "calendarhashes.json",
+  "savedirectory": "c:\\tmp\\www",
+  "cloudflareparameters": {
+    "emailadress": "aijkl@outlook.jp",
+    "authtoken": "",
+    "zoneid": "",
+    "baseurl": "https://private.orange-mikan.org"
+  }
+}
